@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-150px * 2));
+  }
+}
+
+.slide-track {
+  animation: scroll 10s alternate-reverse infinite;
+  display: flex;
+  width: calc(150px * 4);
+}
+
+.slideel {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.roundedEl {
+  border-radius: 0.2rem 0.5rem 1rem/2rem 1.5rem 5.5rem;
+}
+
+.slick-slide > div {
+  margin: 0px 15px;
+}
+
+.curved-edge {
+  --c: 70px; /* control the curvature (works with percentage) */
+  height: 400px;
+
+  /* you can also update the 60%  */
+  mask: radial-gradient(60% var(--c) at bottom, calc(100% - 2px));
+}
