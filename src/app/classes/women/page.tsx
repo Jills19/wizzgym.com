@@ -33,7 +33,7 @@ const WomenWorkoutPage: React.FC = () => {
 
           <WeeklySchedule schedule={womenSchedule} />
           {/* Programs Section */}
-          <section className='box font-body p-2 py-10 grid bg-accent grid-cols-2 md:flex md:flex-row gap-2 mt-10'>
+          <section className='box font-body p-2 py-10 grid bg-secondary grid-cols-2 md:flex md:flex-row gap-2 mt-10'>
             {workouts.map((programe) => (
               <div
                 key={programe.workout + programe.description}

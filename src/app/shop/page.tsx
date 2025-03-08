@@ -27,8 +27,8 @@ const StorePage: React.FC = () => {
         </div>
       )}
 
-      <div className='font-body min-h-screen bg-accentVariant text-accent'>
-        <div className='text-black sticky top-0 z-40 w-[100%]'>
+      <div className='font-body min-h-screen bg-secondary text-accent'>
+        <div className='text-secondary sticky top-0 z-40 w-[100%]'>
           <Header />
         </div>
 
@@ -103,8 +103,8 @@ const ProductCard: React.FC<ProductCardProps> = ({
   const dispatch = useDispatch();
   return (
     <>
-      <div className=' flex flex-col  m-3   text-secondary w-56  h-[299px] rounded border  bg-accent'>
-        <img className='w-full h-[60%] rounded-t' src={image} alt={name} />
+      <div className=' flex flex-col  m-3   text-secondary w-56  h-[299px] rounded-xl  bg-accent'>
+        <img className='w-full h-[60%] rounded-t-md' src={image} alt={name} />
         <div className='p-3 h-[30%]'>
           <div className='font-bold text-lg mb-2'>{name}</div>
           <p className=''>${price.toFixed(2)}</p>

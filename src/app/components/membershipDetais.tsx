@@ -3,12 +3,12 @@ import Link from "next/link";
 export const Pricing = () => {
   return (
     <>
-      <div className=' bg-accent font-body text-secondary min-h-screen py-6'>
+      <div className=' bg-secondary font-body text-accent min-h-screen py-6'>
         <h1 className='text-lg font-custom  font-bold mb-3 text-center'>
           OUR MEMBERSHIP PLANS
         </h1>
         <div className='flex items-center justify-center'>
-          <p className=' txt-lg text-center p-3 mb-8 text-secondary md:w-[50%]'>
+          <p className=' txt-lg text-center p-3 mb-8 text-accent md:w-[50%]'>
             Our plans are inclusive with professional coaches, access to every
             equipment and machines . We offer value for money and state of the
             art equipment from UK !
@@ -17,26 +17,26 @@ export const Pricing = () => {
 
         {/**men membership */}
         <div className='flex flex-row  space-x-2   justify-center items-center'>
-          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-accent border border-gray-600 hover:border-primary rounded-lg  sm:p-8 '>
+          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-secondary border border-primary hover:border-primary rounded-lg  sm:p-8 '>
             <h2 className='text-primary text-bold text-lg'>ONE DAY PASS</h2>
-            <div className='text-xl text-accent bg-secondary p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-xl text-secondary bg-primary p-2 w-[100%]   rounded-md my-2'>
               Ugs 0
             </div>
-            <div className=' font-light text-lg text-secondary m-2'>VISITOR</div>
+            <div className=' font-light text-lg text-accent m-2'>VISITOR</div>
             <ul className=' text-sm md:text-lg'>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Fitness tips</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Group Classes</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Free weight</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Machines</span>
               </li>
@@ -62,36 +62,36 @@ export const Pricing = () => {
                 }}
                 className='border border-primary bg-white md:w-[70%]  md:text-lg text-sm text-primary p-2 rounded-md text-center   hover:bg-red-700 hover:text-accent'
               >
-                SUBSCRIBE NOW
+                SUBSCRIBE
               </button>
             </div>
           </div>
-          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-accent border border-gray-600 hover:border-primary rounded-lg  sm:p-8 '>
+          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-secondary border border-primary hover:border-primary rounded-lg  sm:p-8 '>
             <h2 className='text-primary text-bold text-lg'>MEN'S PLAN</h2>
-            <div className='text-xl text-accent bg-secondary p-2 w-[100%]  rounded-md my-2'>
+            <div className='text-xl text-secondary bg-primary p-2 w-[100%]  rounded-md my-2'>
               Ugs 120,000
             </div>
-            <div className=' font-light text-lg text-secondary m-2'>
+            <div className=' font-light text-lg text-accent m-2'>
               PER MONTH
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Fitness tips</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Group classes</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Free weight</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Training plans</span>
               </li>
@@ -108,7 +108,7 @@ export const Pricing = () => {
                 }}
                 className='border border-primary bg-white md:w-[70%]  md:text-lg text-sm text-primary p-2 rounded-md text-center   hover:bg-red-700 hover:text-accent'
               >
-                SUBSCRIBE NOW
+                SUBSCRIBE
               </button>
             </div>
           </div>
@@ -118,37 +118,37 @@ export const Pricing = () => {
           Women & Students Membership Plans
         </h2>
         <div className='flex flex-row  space-x-2   justify-center items-center'>
-          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-accent border border-gray-600 hover:border-primary rounded-lg  sm:p-8 '>
+          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-secondary border border-primary hover:border-primary rounded-lg  sm:p-8 '>
             <h2 className='text-primary text-bold text-lg'>STUDENT'S PLAN</h2>
-            <div className='text-xl text-accent bg-secondary p-2 w-[100%]   rounded-md my-2'>
+            <div className='text-xl text-secondary bg-primary p-2 w-[100%]   rounded-md my-2'>
               Ugs 100,000
             </div>
             <div className=' font-light text-lg text-secondary m-2'>
               PER MONTH
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Fitness tips</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Group Classes</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Free weight</span>
               </li>
 
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Training plans</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Meal plans</span>
               </li>
@@ -167,40 +167,40 @@ export const Pricing = () => {
                 }}
                 className='border border-primary bg-white md:w-[70%]  md:text-lg text-sm text-primary p-2 rounded-md text-center   hover:bg-red-700 hover:text-accent'
               >
-                SUBSCRIBE NOW
+                SUBSCRIBE
               </button>
             </div>
           </div>
-          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-accent border border-gray-600 hover:border-primary rounded-lg  sm:p-8 '>
+          <div className='text-lg font-semibold w-[46%] md:w-full max-w-sm p-2 bg-secondary border border-primary hover:border-primary rounded-lg  sm:p-8 '>
             <h2 className='text-primary text-bold text-lg'>WOMEN'S PLAN</h2>
-            <div className='text-xl text-accent bg-secondary p-2 w-[100%]  rounded-md my-2'>
+            <div className='text-xl text-secondary bg-primary p-2 w-[100%]  rounded-md my-2'>
               Ugs 120,000
             </div>
             <div className=' font-light text-lg text-secondary m-2'>
               PER MONTH
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Fitness tips</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Group classes</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Free weight</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Training plans</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Meal plans</span>
               </li>
@@ -217,14 +217,14 @@ export const Pricing = () => {
                 }}
                 className='border border-primary bg-white md:w-[70%]  md:text-lg text-sm text-primary p-2 rounded-md text-center   hover:bg-red-700 hover:text-accent'
               >
-                SUBSCRIBE NOW
+                SUBSCRIBE
               </button>
             </div>
           </div>
         </div>
         <div className='flex flex-col justify-center items-center p-12 mx-2'>
           <h2 className='font-semibold text-2xl'>CORPORATE </h2>
-          <p className=' text-center md:w-[55%] text-secondary'>
+          <p className=' text-center md:w-[55%] text-accent'>
             Save up to
             <span className='text-primary text-2xl font-bold mx-2'>20%</span> on
             memberships when you sign your employees up to one of our great {" "}
@@ -238,7 +238,7 @@ export const Pricing = () => {
         </div>
         <div className='flex flex-col justify-center items-center p-4 mx-2'>
           <h2 className='font-semibold text-2xl p-2'>A SOLUTION FOR EVERYONE.</h2>
-          <div className='md:w-[56%] flex flex-col space-y-3 md:space-y-1 text-center text-secondary'>
+          <div className='md:w-[56%] flex flex-col space-y-3 md:space-y-1 text-center text-accent'>
             <p>
               Here at Wizz Gym we want to be able to offer individuals and
               companies a gym option that is flexible, easy to set up and with
@@ -256,38 +256,38 @@ export const Pricing = () => {
         </div>
 
         <div className='flex flex-col justify-center items-center my-3'>
-          <div className='text-lg font-semibold w-[90%] md:w-full max-w-sm p-2 bg-accent border border-gray-600 hover:border-primary rounded-lg  sm:p-8 '>
+          <div className='text-lg font-semibold w-[90%] md:w-full max-w-sm p-2 bg-secondary border border-primary hover:border-primary rounded-lg  sm:p-8 '>
             <h2 className='text-primary text-bold text-center text-lg'>
               CORPORATE PLAN
             </h2>
-            <div className='text-xl text-accent  bg-secondary p-2 w-[100%]  rounded-md my-2'>
+            <div className='text-xl text-secondary  bg-primary p-2 w-[100%]  rounded-md my-2'>
               Ugs 120,000
             </div>
             <div className=' font-light text-lg text-secondary m-2'>
               PER MONTH
             </div>
             <ul className=' text-sm md:text-lg'>
-              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className=' border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Fitness tips</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'> Group classes</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Free weight</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Machines</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Training plans</span>
               </li>
-              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-secondary  flex flex-row items-center space-x-2'>
+              <li className='border-0 border-b-[1px] border-b-gray-400 border-dotted p-2 text-center font-light   text-accent  flex flex-row items-center space-x-2'>
                 <TickIcone />
                 <span className=' whitespace-nowrap'>Meal plans</span>
               </li>
@@ -304,7 +304,7 @@ export const Pricing = () => {
                 }}
                 className='bg-white border border-primary md:w-[70%]  md:text-lg text-sm text-primary p-2 rounded-md text-center   hover:bg-red-700 hover:text-accent'
               >
-                SUBSCRIBE NOW
+                SUBSCRIBE
               </button>
             </div>
           </div>

@@ -73,7 +73,7 @@ export const TestimonialSection = () => {
               {testmonials.map((test) => (
                 <div
                   key={test.message + test.name}
-                  className='  text-center  text-secondary w-[1fr] my-6 h-[280px] rounded-sm bg-accent p-2'
+                  className='  text-center  text-secondary w-[1fr] my-6 h-[280px] rounded-lg bg-accent p-2'
                 >
                   <div className=' rounded-md pt-3 flex flex-col space-y-5 justify-center items-center'>
                     <FiveStars />

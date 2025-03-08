@@ -37,7 +37,7 @@ const ClassesPage: React.FC = () => {
       <div className='w-[100%] overflow-hidden'>
         <div className=''>
           <WeeklySchedule schedule={schedule} />
-          <div className='box bg-accent md:p-8 p-3 pt-10 text-secondary font-body'>
+          <div className='box bg-secondary md:p-8 p-3 pt-10 text-accent font-body'>
             <h2 className='text-2xl text-center '>
               Wizz Gym offers avariety of workout classes
             </h2>
@@ -46,12 +46,12 @@ const ClassesPage: React.FC = () => {
               {classes.map((gymClass, index) => (
                 <div
                   key={index}
-                  className='h-56 bg-secondary md:h-64 md:w-[222px] rounded hover:animate-pulse'
+                  className='h-56 bg-primary md:h-64 md:w-[222px] rounded-lg hover:animate-pulse'
                 >
                   <img
                     src={gymClass.img}
                     alt={gymClass.title}
-                    className='w-full h-28 object-cover rounded-t'
+                    className='w-full h-28 object-cover rounded-t-lg'
                   />
                   <div className='p-2 text-accent'>
                     <h2 className='text-sm font-bold '>{gymClass.title}</h2>
@@ -63,7 +63,7 @@ const ClassesPage: React.FC = () => {
               ))}
             </div>
           </div>
-          <div className='flex justify-center items-center bg-accent'>
+          <div className='flex justify-center items-center bg-secondary'>
             <Link
               href={"/classes/women"}
               className='bg-primary text-accent font-bold text-sm my-2 w-[80%] md:w-[20%] rounded-full mb-8 text-center hover:bg-red-800 p-3 '

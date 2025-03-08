@@ -30,7 +30,7 @@ export default function Aboutus() {
             <div className='flex flex-col justfy-center items-center'>
               <div className='mx-4 flex  flex-col justify-center items-center md:w-[60%]'>
                 <div className='md:w-4/5  mx-2'>
-                  <h1 className=' font-semibold whitespace-nowrap text-4xl rounded text-center mb-2 py-3 my-2  md:my-3  text-primary'>
+                  <h1 className=' font-semibold whitespace-nowrap text-2xl md:text-4xl rounded text-center mb-2 py-3 my-2  md:my-3  text-primary'>
                     WE WELCOME EVERYONE !
                   </h1>
                   <p className='text-gray-200 px-2 mb-6  m:w-4/5  md:text-center   '>

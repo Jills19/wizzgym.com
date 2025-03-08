@@ -155,7 +155,7 @@ const WeeklySchedule = ({ schedule }: Props) => {
             <p className='mt-4'>{selectedProgram.description}</p>{" "}
             {/* Program description here */}
             <button
-              className='mt-4 bg-primary text-accent px-4 py-2 rounded'
+              className='mt-4 bg-primary text-accent px-4 py-2 rounded hover:bg-red-800'
               onClick={() => setSelectedProgram(null)}
             >
               Close

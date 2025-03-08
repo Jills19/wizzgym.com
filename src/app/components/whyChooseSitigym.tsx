@@ -2,13 +2,13 @@
 
 const Why_choose_us = () => {
   return (
-    <div className='bg-[#414040]'>
-      <section className='py-16 px-8 bg-accent text-center font-body text-white'>
-        <h2 className='text-primary text-3xl md:text-4xl font-bold mb-8 font-custom'>
+    <div className='bg-secondary'>
+      <section className='py-16 px-8 bg-secondary text-center font-body text-primary'>
+        <h2 className='text-3xl md:text-4xl font-bold mb-8 font-custom'>
           Why Choose Us?
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
-          <div className='p-6 border border-red-600 flex flex-col justify-center items-center'>
+          <div className='p-6 border border-primary rounded-lg flex flex-col justify-center items-center'>
             <svg
             className="fill-primary"
               fill='white'
@@ -55,15 +55,15 @@ const Why_choose_us = () => {
                 </g>
               </g>
             </svg>
-            <h3 className='text-secondary text-2xl font-semibold mb-4 font-body'>
+            <h3 className='text-accent text-2xl font-semibold mb-4 font-body'>
               State-of-the-Art Equipment
             </h3>
-            <p className='font-body tracking-wide text-secondary'>
+            <p className='font-body tracking-wide text-accent'>
               Our gym is equipped with the latest technology to help you achieve
               your fitness goals.
             </p>
           </div>
-          <div className='p-6 border border-primary flex flex-col justify-center items-center'>
+          <div className='p-6 border border-primary  rounded-lg  flex flex-col justify-center items-center'>
             <svg
               width='50px'
               height='50px'
@@ -80,15 +80,15 @@ const Why_choose_us = () => {
                 strokeLinejoin='round'
               />
             </svg>
-            <h3 className='text-secondary text-2xl font-semibold mb-4 tracking-wide'>
+            <h3 className='text-accent text-2xl font-semibold mb-4 tracking-wide'>
               Certified Trainers
             </h3>
-            <p className='font-body tracking-wide text-secondary'>
+            <p className='font-body tracking-wide text-accent'>
               Our expert trainers are here to guide and motivate you every step
               of the way.
             </p>
           </div>
-          <div className='p-6 border border-primary flex flex-col justify-center items-center'>
+          <div className='p-6 border border-primary  rounded-lg  flex flex-col justify-center items-center'>
             <svg
               className="stroke-primary"
               height='50px'
@@ -183,10 +183,10 @@ const Why_choose_us = () => {
                 </g>
               </g>
             </svg>
-            <h3 className='text-secondary text-2xl font-body font-semibold mb-4 tracking-wide'>
+            <h3 className='text-accent text-2xl font-body font-semibold mb-4 tracking-wide'>
               Variety of Classes
             </h3>
-            <p className='text-secondary font-body tracking-wide text-[#fdfdfddb]'>
+            <p className='text-accent font-body tracking-wide'>
               From yoga to high-intensity interval training, we offer classes
               for all fitness levels.
             </p>

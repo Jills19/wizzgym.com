@@ -21,7 +21,7 @@ const Header: React.FC<any> = () => {
             {/**mobile menu */}
 
             {Isopen && (
-              <div className='lg:hidden bg-white text-black font-bold text-lg fixed top-0 z-50 w-[100%] left-0 p-4'>
+              <div className='lg:hidden bg-white text-secondary  text-lg fixed top-0 z-50 w-[100%] left-0 p-4'>
                 <div
                   onClick={() => {
                     setIsOpen(false);
@@ -64,7 +64,7 @@ const Header: React.FC<any> = () => {
                   <li className='flex justify-between items-center text-lg'>
                     <Link
                       href={"/aboutus"}
-                      className={`${pathname === "/aboutus" ? "text-primary font-bold underline" : " "}`}
+                      className={`${pathname === "/aboutus" ? "text-primary  underline" : " "}`}
                     >
                       About Us
                     </Link>
@@ -72,7 +72,7 @@ const Header: React.FC<any> = () => {
                   <li className='flex justify-between items-center text-lg'>
                     <Link
                       href={"/pricing"}
-                      className={`${pathname === "/pricing" ? "text-primary font-bold underline" : " "}`}
+                      className={`${pathname === "/pricing" ? "text-primary  underline" : " "}`}
                     >
                       Membership
                     </Link>
@@ -112,7 +112,7 @@ const Header: React.FC<any> = () => {
                   <li className='flex justify-between items-center text-lg'>
                     <Link
                       href={"/contact"}
-                      className={`${pathname === "/contact" ? "text-primary font-bold underline" : " "}`}
+                      className={`${pathname === "/contact" ? "text-primary  underline" : " "}`}
                     >
                       Contact Us
                     </Link>
@@ -121,7 +121,7 @@ const Header: React.FC<any> = () => {
                   <li className='flex justify-between items-center text-lg'>
                     <Link
                       href={"/jobs"}
-                      className={`${pathname === "/jobs" ? "text-primary font-bold underline" : " "}`}
+                      className={`${pathname === "/jobs" ? "text-primary  underline" : " "}`}
                     >
                       Jobs
                     </Link>
@@ -130,12 +130,12 @@ const Header: React.FC<any> = () => {
                     <Link href={"/shop"}>Shop</Link>
                   </li>
                   <li className='relative flex flex-row   items-center'>
-                    <span className=' font-bold text-[#9b2828]  rounded-full w-fit h-fit   p-2'>
+                    <span className='  text-[#9b2828]  rounded-full w-fit h-fit   p-2'>
                       {cartItems.length}
                     </span>
                     <Link
                       href={"/shop/cart"}
-                      className={`${pathname === "/shop/cart" ? "text-primary font-bold underline" : " "}`}
+                      className={`${pathname === "/shop/cart" ? "text-primary  underline" : " "}`}
                     >
                       Cart
                     </Link>
@@ -157,10 +157,10 @@ const Header: React.FC<any> = () => {
                   <img src='/wizz-gym-logo.png' alt='logo' className=' ' />
                 </Link>
                 {/** social media icons below  but the are only visible on mobile and hidden on desktop */}
-                <ul className='text-black font-medium lg:hidden space-x-2 flex flex-row justify-center items-center md:space-x-8'>
+                <ul className='text-secondary font-medium lg:hidden space-x-2 flex flex-row justify-center items-center md:space-x-8'>
                   {/** facebook  */}
 
-                  <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+                  <li className='flex flex-row   items-center text-accent  lg:hover:underline lg:hover:text-secondary'>
                     <Link href={"/"} className='hover:text-primary'>
                       <svg
                         width='23px'
@@ -185,7 +185,7 @@ const Header: React.FC<any> = () => {
                     </Link>
                   </li>
                   {/** instagram */}
-                  <li className='flex  flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+                  <li className='flex  flex-row   items-center text-accent   lg:hover:underline lg:hover:text-secondary'>
                     <Link
                       href={
                         "https://www.instagram.com/kampalasitigym?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
@@ -216,7 +216,7 @@ const Header: React.FC<any> = () => {
                   </li>
                   {/** tiktok */}
 
-                  <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+                  <li className='flex flex-row   items-center text-accent   lg:hover:underline lg:hover:text-secondary'>
                     <Link
                       href={
                         "https://www.tiktok.com/@sitigym_?is_from_webapp=1&sender_device=pc"
@@ -240,7 +240,7 @@ const Header: React.FC<any> = () => {
                   </li>
                   {/** whatsapp */}
 
-                  <li className='flex flex-row   items-center   lg:hover:underline lg:hover:text-black'>
+                  <li className='flex flex-row   items-center text-accent  lg:hover:underline lg:hover:text-secondary'>
                     <Link href={"/"} className='hover:text-primary'>
                       <svg
                         fill='currentColor'
@@ -295,7 +295,7 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/aboutus"}
-                        className={` ${pathname === "/aboutus" ? "text-primary font-bold underline" : " "} w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/aboutus" ? "text-primary  underline" : " "} w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         About Us
                       </Link>
@@ -303,7 +303,7 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/pricing"}
-                        className={` ${pathname === "/pricing" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/pricing" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Membership
                       </Link>
@@ -312,7 +312,7 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/jobs"}
-                        className={` ${pathname === "/jobs" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/jobs" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Jobs
                       </Link>
@@ -320,7 +320,7 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/spa"}
-                        className={` ${pathname === "/spa" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/spa" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Spa
                       </Link>
@@ -356,7 +356,7 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/contact"}
-                        className={` ${pathname === "/contact" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/contact" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Contact Us
                       </Link>
@@ -364,18 +364,18 @@ const Header: React.FC<any> = () => {
                     <li className='flex justify-between items-center text-lg'>
                       <Link
                         href={"/shop"}
-                        className={` ${pathname === "/shop" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/shop" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Shop
                       </Link>
                     </li>
                     <li className='relative flex justify-between items-center'>
-                      <span className=' font-bold text-[#9b2828]   rounded-full w-fit h-fit   p-2'>
+                      <span className='  text-[#9b2828]   rounded-full w-fit h-fit   p-2'>
                         {cartItems.length}
                       </span>
                       <Link
                         href={"/shop/cart"}
-                        className={` ${pathname === "/shop/cart" ? "text-primary font-bold underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
+                        className={` ${pathname === "/shop/cart" ? "text-primary  underline" : " "}   w-screen whitespace-nowrap  text-center lg:w-fit hover:underline block active:text-primary focus:text-primary hover:text-primary underline underline-offset-4`}
                       >
                         Cart
                       </Link>

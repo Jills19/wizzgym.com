@@ -33,7 +33,7 @@ const Pricingpage = () => {
             Offer: up to 50% off
           </div>
         <Pricing />
-        <div className='bg-[#1b1b1b] font-body text-accent md:px-3 md:flex md:items-center md:justify-center md:flex-col'>
+        <div className='bg-secondary font-body text-accent md:px-3 md:flex md:items-center md:justify-center md:flex-col'>
           <p className='  p-3  text-accent  text-center  md:w-[50%]'>
             You might be taking the first step on your fitness journey or
             getting back into the groove, whatever your motivation, we’re here

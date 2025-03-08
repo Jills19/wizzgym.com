@@ -92,7 +92,7 @@ const ContactUsPage = () => {
           </div>
         )}
         <div className='font-body'>
-          <div className='p-6 bg-accent text-secondary flex flex-col md:flex-row justify-evenly md:items-center'>
+          <div className='p-6 bg-secondary text-primary flex flex-col md:flex-row justify-evenly md:items-center'>
             <div>
               <h2 className='text-3xl font-bold mb-4 text-center'>
                 Contact Us
@@ -111,8 +111,8 @@ const ContactUsPage = () => {
                     name='user_name'
                     value={formData.user_name}
                     onChange={handleChange}
-                    className='w-full  bg-secondary text-accent  px-4 py-2  
-             rounded-md focus:outline-none focus:ring-2 focus:ring-primary'
+                    className='w-full  bg-primary text-accent  px-4 py-2  
+             rounded-md focus:outline-none focus:ring-2 focus:ring-primary placeholder:text-accent'
                     placeholder='Your Name'
                     required
                   />
@@ -130,8 +130,8 @@ const ContactUsPage = () => {
                     name='user_email'
                     value={formData.user_email}
                     onChange={handleChange}
-                    className='w-full px-4 py-2 bg-secondary text-accent   
-             rounded-md focus:outline-none focus:ring-2 focus:ring-primary'
+                    className='w-full px-4 py-2 bg-primary text-accent   
+             rounded-md focus:outline-none focus:ring-2 focus:ring-primary  placeholder:text-accent'
                     placeholder='Your Email'
                     required
                   />
@@ -146,8 +146,8 @@ const ContactUsPage = () => {
                     name='phone'
                     value={formData.phone}
                     onChange={handleChange}
-                    className='w-full px-4 py-2 bg-secondary text-accent
-             rounded-md focus:outline-none focus:ring-2 focus:ring-primary'
+                    className='w-full px-4 py-2 bg-primary text-accent
+             rounded-md focus:outline-none focus:ring-2 focus:ring-primary  placeholder:text-accent'
                     placeholder='Your Phone Number'
                     required
                   />
@@ -161,8 +161,8 @@ const ContactUsPage = () => {
                     name='message'
                     value={formData.message}
                     onChange={handleChange}
-                    className='w-full px-4 py-2  bg-secondary   text-accent
-             rounded-md focus:outline-none focus:ring-2 focus:ring-primary'
+                    className='w-full px-4 py-2  bg-primary   text-accent
+             rounded-md focus:outline-none focus:ring-2 focus:ring-primary  placeholder:text-accent'
                     placeholder='Your Message'
                     rows={5}
                     required
@@ -179,7 +179,7 @@ const ContactUsPage = () => {
               </form>
             </div>
 
-            <div className=' md:py-1 bg-secondary text-accent my-5 p-4 rounded-md  text-center  flex flex-col justify-center items-center'>
+            <div className=' md:py-1 bg-accent text-primary my-5 p-4 rounded-md  text-center  flex flex-col justify-center items-center'>
               <div className='flex flex-col justify-center items-center'>
                 <div className='w-2/3 my-6 text-sm flex flex-col justify-center items-center'>
                   <svg
@@ -209,7 +209,7 @@ const ContactUsPage = () => {
                   <p className=' mb-6 text-center font-bold '>
                     Visit Us Today!
                   </p>
-                  <p className='text-gray-300'>
+                  <p className='text-secondary'>
                     Wizz Segawa Mall, Mwanga Road || Kampala Uganda
                   </p>
                 </div>
@@ -241,7 +241,7 @@ const ContactUsPage = () => {
                   <p className=' mb-6 text-center font-bold'>
                     Coming Soon!
                   </p>
-                  <p className='text-gray-300'>
+                  <p className='text-secondary'>
                     Wizz Gym Old Kira Bukoto, Kampala Uganda
                   </p>
                 </div>
